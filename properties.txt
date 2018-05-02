@@ -1,0 +1,7 @@
+﻿"ATX.Case.01.Dimension.1"=499
+"ATX.Case.01.Dimension.2"=375
+"ATX.Case.01.Dimension.3"=200
+"ATX.Case.01.Profile.20.Width"=20
+"ATX.Case.01.Profile.20.Thickness" = 1.5
+"ATX.Case.01.Profile.10.Width"=10
+"ATX.Case.01.Profile.10.Thickness"=1.5
