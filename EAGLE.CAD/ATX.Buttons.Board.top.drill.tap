@@ -1,0 +1,111 @@
+(.../pcb-gcode-3.6.0.4/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../ATX.Buttons.Board/ATX.Buttons.Board.brd)
+(Current profile is .../pcb-gcode-3.6.0.4/profiles/generic.pp  )
+(This file generated 02.05.2018 16:48:16)
+(Settings from pcb-machine.h)
+(  Tool Size)
+(0.1778 )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(12.0000 	2.0000 	-0.1778 	-2.1000 )
+(spindle on time = 1.0000)
+(milling depth = -0.2540)
+(text depth = -0.1270)
+(tool change at 0.0000 0.0000 25.4000 )
+(feed rate xy = F120.00 )
+(feed rate z  = F90.00 )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0254)
+(isolate max = 0.5080)
+(isolate step = 0.1270)
+(Generated top drill, )
+(Unit of measure: mm)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T01  3.200mm 0.1260in 0.0000in 0.0000in )
+( T02  1.016mm 0.0400in 0.0000in 0.0000in )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+M05
+G00 Z25.4000 
+G00 X0.0000 Y0.0000 
+M06 T01  ; 3.2000 
+G01 Z0.0000 F90.00 
+M06 T01  ; 3.2000 
+G00 Z2.0000 
+M03
+G04 P1.000000
+G00 Z2.000000
+G00 X43.0000 Y10.0000 
+G01 Z-2.1000 F90.00 
+G01 Z2.000000
+(R2.0000  P1.000000)
+(G00 Z2.000000)
+G00 X3.0000 Y10.0000 
+G01 Z-2.100000
+G01 Z2.000000
+M05
+G00 Z25.4000 
+M06 T02  ; 1.0160 
+G01 Z0.0000 F90.00 
+M06 T02  ; 1.0160 
+G00 Z2.0000 
+M03
+G04 P1.000000
+G00 Z2.000000
+G00 X33.7312 Y7.8994 
+G01 Z-2.1000 F90.00 
+G01 Z2.000000
+(R2.0000  P1.000000)
+(G00 Z2.000000)
+G00 X33.7312 Y12.4206 
+G01 Z-2.100000
+G01 Z2.000000
+(G00 Z2.000000)
+G00 X11.9888 Y7.8994 
+G01 Z-2.100000
+G01 Z2.000000
+(G00 Z2.000000)
+G00 X11.9888 Y12.4206 
+G01 Z-2.100000
+G01 Z2.000000
+(G00 Z2.000000)
+G00 X18.4912 Y7.8994 
+G01 Z-2.100000
+G01 Z2.000000
+(G00 Z2.000000)
+G00 X18.4912 Y12.4206 
+G01 Z-2.100000
+G01 Z2.000000
+(G00 Z2.000000)
+G00 X19.1900 Y3.8100 
+G01 Z-2.100000
+G01 Z2.000000
+(G00 Z2.000000)
+G00 X21.7300 Y3.8100 
+G01 Z-2.100000
+G01 Z2.000000
+(G00 Z2.000000)
+G00 X24.2700 Y3.8100 
+G01 Z-2.100000
+G01 Z2.000000
+(G00 Z2.000000)
+G00 X26.8100 Y3.8100 
+G01 Z-2.100000
+G01 Z2.000000
+(G00 Z2.000000)
+G00 X27.2288 Y7.8994 
+G01 Z-2.100000
+G01 Z2.000000
+(G00 Z2.000000)
+G00 X27.2288 Y12.4206 
+G01 Z-2.100000
+G01 Z2.000000
+T01 
+G00 Z12.0000 
+M05
+M02
